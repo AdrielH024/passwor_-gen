@@ -13,10 +13,10 @@ newpass = []
 while(j <= i):
  typechar = random.randint(1,4)
  if(typechar == 1):
-     charn = random.randint(0,22)
+     charn = random.randint(0,25)
      newpass.append(normalchar[charn])
  if(typechar == 2):
-     charn = random.randint(0,22)
+     charn = random.randint(0,25)
      newpass.append(upperchar[charn])
  if(typechar == 3):
      charn = random.randint(0,9)
